@@ -1,7 +1,7 @@
 function changeNumber(number) {
   var numberString = number.toString();
   if (numberString.includes("3")) {
-    return "I'm sorry, Dave. I'm afraid I can't do that."
+    return "'I'm sorry Dave, I'm afraid I can't do that.'"
   } else if (numberString.includes("2")) {
     return "Boop"
   } else if (numberString.includes("1")) {
@@ -15,7 +15,7 @@ function makeArray(number) {
   var output = [];
   var numberString = number.toString();
   if (numberString.includes("3")) {
-    return "I'm sorry, Dave. I'm afraid I can't do that."
+    return "'I'm sorry Dave, I'm afraid I can't do that.'"
   } else if (numberString.includes("2")) {
     return "Boop"
   } else if (numberString.includes("1")) {
@@ -30,6 +30,17 @@ function makeArray(number) {
 
 var myNumber = 8732;
 console.log(makeArray(myNumber));
+
+
+
+$(document).ready(function(){
+  $("#form").submit(function(event) {
+    event.preventDefault();
+    var number = parseInt($("#enterNumber").val());
+    var output = makeArray(number);
+    $(".yourResult").text(output);
+
+    $("#result").show();
 
   });
 
