@@ -23,7 +23,7 @@ function makeArray(number) {
   } else {
     for (var i = 0; i <= number; i++) {
       output.push(changeNumber(i));
-    }
+  }
     return output;
   }
 }
@@ -40,7 +40,7 @@ function reverseOrder(number) {
   } else {
     for (var i = 0; i <= number; i++) {
       output.push(changeNumber(i));
-    }
+  }
     return output.reverse();
   }
 }
@@ -59,6 +59,7 @@ $(document).ready(function(){
     $(".yourResult").html(output);
     $(".name").html(nameInput);
     $("#result").show();
+    $(".endMessage").show();
 
   });
 });
@@ -73,6 +74,7 @@ $(document).ready(function(){
     $(".yourResult").html(output);
     $(".name").html(nameInput);
     $("#result").show();
+    $(".endMessage").show();
 
   });
 });
