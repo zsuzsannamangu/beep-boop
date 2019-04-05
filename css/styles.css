@@ -1,12 +1,12 @@
 #result {
   display: none;
   color: #D90368;
+  margin: 20px 0;
 }
 
 body {
   padding: 20px 30px;
   margin: 20px 0;
-  background-color: #EAF2EF;
 }
 
 input {
@@ -25,4 +25,11 @@ input {
 
 .header h1 {
   color: #048BA8;
+}
+
+img {
+  width: 200px;
+  height: 350px;
+  float: right;
+  margin-left: 20px;
 }
