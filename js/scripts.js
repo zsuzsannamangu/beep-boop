@@ -19,5 +19,5 @@ function makeArray(number) {
   return output;
 }
 
-var myNumber = 23;
+var myNumber = 2;
 console.log(makeArray(myNumber));
