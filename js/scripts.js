@@ -1,13 +1,13 @@
 function changeNumber(number) {
   var numberString = number.toString();
   if (numberString.includes("3")) {
-    return 'I am sorry <span class="name"></span>, I am afraid I cannot do that.'
+    return 'I am sorry <span class="name"></span>, I am afraid I cannot do that. '
   } else if (numberString.includes("2")) {
-    return "Boop!"
+    return "Boop! "
   } else if (numberString.includes("1")) {
-    return "Beep!"
+    return "Beep! "
   } else {
-    return number;
+    return number + ", ";
   }
 }
 
@@ -17,7 +17,7 @@ function makeArray(number) {
   if (numberString.includes("3")) {
     return 'I am sorry <span class="name"></span>, I am afraid I cannot do that. <img src="img/icant.png" alt="This is an image of I cannot.">'
   } else if (numberString.includes("2")) {
-    return 'Boop! <img src="img/boop2.jpg" alt="This is an image of boop.">'
+    return 'Boop! <img src="img/boop.jpg" alt="This is an image of boop.">'
   } else if (numberString.includes("1")) {
     return 'Beep! <img src="img/beep.png" alt="This is an image of beep.">'
   } else {
@@ -34,7 +34,7 @@ function reverseOrder(number) {
   if (numberString.includes("3")) {
     return 'I am sorry <span class="name"></span>, I am afraid I cannot do that. <img src="img/icant.png" alt="This is an image of I cannot.">'
   } else if (numberString.includes("2")) {
-    return 'Boop! <img src="img/boop2.jpg" alt="This is an image of boop.">'
+    return 'Boop! <img src="img/boop.jpg" alt="This is an image of boop.">'
   } else if (numberString.includes("1")) {
     return 'Beep! <img src="img/beep.png" alt="This is an image of beep.">'
   } else {
