@@ -1,3 +1,28 @@
 #result {
-  display: none; 
+  display: none;
+  color: #D90368;
+}
+
+body {
+  padding: 20px 30px;
+  margin: 20px 0;
+  background-color: #EAF2EF;
+}
+
+input {
+  width: 20%;
+  padding: 6px 6px;
+  margin: 6px 6px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.header p {
+  padding: 30px 0;
+  color: #A4036F;
+}
+
+.header h1 {
+  color: #048BA8;
 }
