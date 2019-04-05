@@ -11,10 +11,10 @@
     <div class="header">
       <img src="img/beepboop.png" alt="This is an image of a robot.">
       <h1>Beep Boop</h1>
-        <p>Type in a number between 0 and 9999, click submit, and see all numbers from 0 to your number in order!
+        <p>Type in a number between 0 and 9999 and see all numbers from 0 to your number in regular or in reverse order!
         <br>
         <br>
-        However, if your number contains a 1, it will be replaced by <strong>"Beep"</strong>, if it contains a 2 it will come out as <strong>"Boop"</strong> and a number with 3 in it will read as <strong>"I am sorry Dave, I am afraid I cannot do that."</strong>
+        However, if your number contains a 1, it will be replaced by <strong>"Beep!"</strong>, if it contains a 2 it will come out as <strong>"Boop!"</strong> and a number with 3 in it will read as <strong>"I am sorry Dave, I am afraid I cannot do that."</strong>
         <br>
         Note: A 3 will override your 2 and 1, and a 2 will win over a 1!</p>
     </div>
@@ -22,8 +22,9 @@
     <form id="form">
       <label for="enterNumber">Enter your number here:</label>
       <input id="enterNumber" type="number" min="0" max="9999" placeholder="enter">
-      <button type="submit" class="btn btn-info">submit</button>
-    </form>
+      <button id="button1" type="button" class="btnone btn-success">Regular order</button>
+      <button id="button2" type="button" class="btntwo btn-info">Reverse order</button>
+  </form>
 
     <div id="result">
       <p><strong>Here you go:</strong>
