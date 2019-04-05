@@ -2,6 +2,7 @@
   display: none;
   color: #D90368;
   margin: 20px 0;
+  size: 14px;
 }
 
 body {
@@ -28,8 +29,17 @@ input {
 }
 
 img {
+  margin-left: 20px;
+}
+
+.header img {
   width: 200px;
   height: 350px;
   float: right;
-  margin-left: 20px;
+}
+
+#result img {
+  width: 400px;
+  height: 300px;
+  float: inherit;
 }
