@@ -7,7 +7,21 @@
     <script src="js/scripts.js"></script>
     <title>Beep-Boop</title>
   </head>
-  <body>
-    <h2>Beep Boop</h2>
-  </body>
+  <body class="container">
+   <h1>Beep Boop</h1>
+   <p>Type in any number, click submit, and see all numbers from 0 to your number in order!
+     <br>
+     However, if your number contains a 1, it will be replaced by "Beep", if it contains a 2 it will come out as "Boop" and a number with 3 in it will read as I'm sorry Dave, I'm afraid I can't do that." Note: A 3 will override your 2 and 1, and a 2 will win over a 1!</p>
+
+   <form id="form">
+
+     <button type="submit" name="btn btn-primary">submit</button>
+   </form>
+
+   <div id="result">
+     <p>Look at this: <span class="output"></span></p>
+   </div>
+
+
+ </body>
 </html>

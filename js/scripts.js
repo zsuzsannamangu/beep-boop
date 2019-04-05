@@ -28,5 +28,9 @@ function makeArray(number) {
   }
 }
 
-var myNumber = 123;
+var myNumber = 8732;
 console.log(makeArray(myNumber));
+
+  });
+
+});
