@@ -6,11 +6,7 @@
 
 ## Description
 
-_{A web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with these exceptions:
-
-Numbers that contain a 1: all digits are replaced with "Beep!"
-Numbers that contain a 2: all digits are replaced with "Boop!"
-Numbers that contain a 3: all digits are replaced with "I'm sorry, Dave. I'm afraid I can't do that."}_
+_{A web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with these exceptions: 1. Numbers that contain a 1: all digits are replaced with "Beep!" 2. Numbers that contain a 2: all digits are replaced with "Boop!" 3. Numbers that contain a 3: all digits are replaced with "I'm sorry, Dave. I'm afraid I can't do that."}_
 
 ### Specifications
 
