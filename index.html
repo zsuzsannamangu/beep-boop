@@ -18,26 +18,27 @@
         <br>
         Note: A 3 will override your 2 and 1, and a 2 will win over a 1!</p>
     </div>
+    <div class="panel">
+      <form id="form">
+        <div class=yourName>
+          <label for="name">Your name:</label>
+          <input id="name" type="text" placeholder="enter">
+          <p>(If your number contains 3, you'll get a personalized message.)
+        </div>
+        <div class=numberInput>
+          <label for="enterNumber">Your number:</label>
+          <input id="enterNumber" type="number" min="0" max="9999" placeholder="enter">
+          <button id="button1" type="button" class="btnone btn-success">Regular order</button>
+          <button id="button2" type="button" class="btntwo btn-info">Reverse order</button>
+        </div>
+      </form>
 
-    <form id="form">
-      <div class=yourName>
-        <label for="name">Your name:</label>
-        <input id="name" type="text" placeholder="enter name">
-        <p>(If your number contains 3, you'll get a personalized message.)
+      <div id="result">
+        <p><strong>Here you go:</strong>
+        <br>
+        <br>
+        <span class="yourResult"></span>.</p>
       </div>
-      <div class=numberInput>
-        <label for="enterNumber">Your number:</label>
-        <input id="enterNumber" type="number" min="0" max="9999" placeholder="enter number">
-        <button id="button1" type="button" class="btnone btn-success">Regular order</button>
-        <button id="button2" type="button" class="btntwo btn-info">Reverse order</button>
-      </div>
-    </form>
-
-    <div id="result">
-      <p><strong>Here you go:</strong>
-      <br>
-      <br>
-      <span class="yourResult"></span>.</p>
     </div>
 
 
