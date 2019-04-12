@@ -14,35 +14,17 @@ function changeNumber(number) {
 function makeArray(number) {
   var output = [];
   var numberString = number.toString();
-  if (numberString.includes("3")) {
-    return 'I am sorry <span class="name"></span>, I am afraid I cannot do that. <img src="img/icant.png" alt="This is an image of I cannot.">'
-  } else if (numberString.includes("2")) {
-    return 'Boop! <img src="img/boop.jpg" alt="This is an image of boop.">'
-  } else if (numberString.includes("1")) {
-    return 'Beep! <img src="img/beep.png" alt="This is an image of beep.">'
-  } else {
-    for (var i = 0; i <= number; i++) {
-      output.push(changeNumber(i));
-  }
+    for (var i = 0; i <= number; i++)
+    output.push(changeNumber(i));
     return output;
-  }
 }
 
 function reverseOrder(number) {
   var output = []
   var numberString = number.toString();
-  if (numberString.includes("3")) {
-    return 'I am sorry <span class="name"></span>, I am afraid I cannot do that. <img src="img/icant.png" alt="This is an image of I cannot.">'
-  } else if (numberString.includes("2")) {
-    return 'Boop! <img src="img/boop.jpg" alt="This is an image of boop.">'
-  } else if (numberString.includes("1")) {
-    return 'Beep! <img src="img/beep.png" alt="This is an image of beep.">'
-  } else {
-    for (var i = 0; i <= number; i++) {
-      output.push(changeNumber(i));
-  }
+    for (var i = 0; i <= number; i++)
+    output.push(changeNumber(i));
     return output.reverse();
-  }
 }
 
 // var myNumber = 78;
